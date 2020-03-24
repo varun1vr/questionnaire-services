@@ -10,6 +10,7 @@ CREATE TABLE `tbl_question` (
 	`id` INT(11) NOT NULL AUTO_INCREMENT,
 	`value` VARCHAR(255) NULL DEFAULT NULL,
 	`ref_answer_id` INT(11) NULL DEFAULT NULL,
+	`questiontype` VARCHAR(255) NULL DEFAULT NULL,
 	PRIMARY KEY (`id`)
 )
 # table answer
