@@ -20,6 +20,17 @@ public class Question {
 	@Column(name = "VALUE", nullable = true)
 	private String value;
 	
+	@Column(name = "QUESTIONTYPE", nullable = true)
+	private String questionType;
+	
+	public String getQuestionType() {
+		return questionType;
+	}
+
+	public void setQuestionType(String questionType) {
+		this.questionType = questionType;
+	}
+
 	@Column(name = "REF_ANSWER_ID", nullable = true)
 	private int refAnswerId;
 	
