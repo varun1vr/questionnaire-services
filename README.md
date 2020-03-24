@@ -17,7 +17,7 @@ CREATE TABLE `tbl_question` (
 CREATE TABLE `tbl_answer` (
 	`id` INT(11) NOT NULL AUTO_INCREMENT,
 	`question_id` INT(11) NULL DEFAULT NULL,
-	`value` VARCHAR(255) NULL DEFAULT NULL,
+	`value` LONGTEXT NULL DEFAULT NULL,
 	PRIMARY KEY (`id`)
 )
 
